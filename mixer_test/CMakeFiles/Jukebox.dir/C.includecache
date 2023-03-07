@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kyler/samples/common/debugScreen.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+stdarg.h
+-
+inttypes.h
+-
+debugScreen.h
+/home/kyler/samples/common/debugScreen.h
+debugScreenFont.c
+/home/kyler/samples/common/debugScreenFont.c
+psp2/display.h
+-
+psp2/kernel/sysmem.h
+-
+psp2/kernel/threadmgr.h
+-
+
+/home/kyler/samples/common/debugScreen.h
+debugScreen_custom.h
+/home/kyler/samples/common/debugScreen_custom.h
+debugScreen.c
+/home/kyler/samples/common/debugScreen.c
+
+/home/kyler/samples/common/debugScreenFont.c
+
+/home/kyler/samples/common/debugScreen_custom.h
+
